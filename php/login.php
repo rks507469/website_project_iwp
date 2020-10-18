@@ -1,4 +1,5 @@
 <?php
+//this file will be used for logging in
    require 'connect.php';
    if(!isset($_POST['InputEmail'], $_POST['InputPassword'])) {
        exit('Please fill both the username and password!');

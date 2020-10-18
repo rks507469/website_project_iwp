@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <?php
+//starting sesstion to retrive the values
     session_start();
     if(!isset($_SESSION['loggedin'])) {
         header('Location: ../index.html');
